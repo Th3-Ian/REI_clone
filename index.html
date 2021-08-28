@@ -10,45 +10,160 @@
       name="description"
       content="A simple HTML5 Template for new projects."
     />
-    <link rel="stylesheet" href="css/styles.css?v=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/stylesheet.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <div>
-      <nav>
-        <div></div>
-        <div>
-          <div></div>
-
-          <div></div>
+    <div class="wrapper">
+      <header class="top-header">
+        <div class="sm-nav-container">
+          <nav class="sm-nav">
+            <a href="#">shop rei</a>
+            <a href="#">rei outlet</a>
+            <a href="#">used gear</a>
+            <a href="#">rei adventures</a>
+            <a href="#">classes & events</a>
+            <a href="#">expert advice</a>
+            <a href="#">uncommon path</a>
+            <a href="#">conversations</a>
+            <a href="#">membership</a>
+          </nav>
         </div>
-      </nav>
+        <div class="main-nav-container">
+          <div>
+            <img src="/assets/rei-co-op-logo-white.svg" />
+          </div>
+          <div>
+            <div class="header-actions">
+              <div class="input-group">
+                <input
+                  type="text"
+                  placeholder="Search for great gear & clothing"
+                />
+                <span class="input-icon"></span>
+              </div>
+              <div class="action-links">
+                <a href="#">Sign in</a>
+                <a href="#">Stores</a>
+                <a href="#">Cart</a>
+              </div>
+            </div>
+
+            <nav class="main-nav">
+              <a href="#">Camp & Hike</a>
+              <a href="#">Climb</a>
+              <a href="#">Cycle</a>
+              <a href="#">Water</a>
+              <a href="#">Run</a>
+              <a href="#">Fitness</a>
+              <a href="#">Snow</a>
+              <a href="#">Travel</a>
+              <a href="#">Men</a>
+              <a href="#">Women</a>
+              <a href="#">Kids</a>
+              <a href="#">Deals</a>
+              <a href="#">More</a>
+            </nav>
+          </div>
+        </div>
+      </header>
       <div class="spacer">
         Join the co-op today for a lifetime of perks and
-        <strong>earn a $20 bonus card!</strong> <a href="#">Learn how</a>
+        <strong>earn a $20 bonus card!</strong>
+        <a class="" href="#">Learn how</a>
       </div>
-      <div>
-        <div>
-          <p>OPT OUTSIDE</p>
-          <h1>Home is where you park it</h1>
+      <div class="hero-container">
+        <div class="hero-cta">
+          <p class="hero-sml-txt">OPT OUTSIDE</p>
+          <h1>
+            Home is where you<br />
+            park it
+          </h1>
           <p>
             Camp easy, camp happy, thanks to gear designed to make car camping
             your new favorite thing.
           </p>
-          <button href="#">Gear up for car camping</button>
+          <button class="prim-btn" href="#">Gear up for car camping</button>
         </div>
       </div>
-      <div>
+      <div class="main-content">
         <div>
-          <h2>Shop top categories</h2>
-          <div>
-            <a>
-              <img />
-              <p>Men's fleece clothing</p>
-            </a>
+          <h2 class="cat-header">Shop top categories</h2>
+          <div class="top-prod-grid">
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/Mfleece_1.jpg" />
+                </div>
+                <p>Men's fleece clothing</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/Mfleece_2.jpg" />
+                </div>
+                <p>Men's fleece clothing</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/Kbackpack_1.jpg" />
+                </div>
+                <p>Kids back to school gear</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/yeti_thermos.jpg" />
+                </div>
+                <p>Water bottles & thermos'</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/running_shorts_1.jpg" />
+                </div>
+                <p>Running shorts</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/chair_1.jpg" />
+                </div>
+                <p>Outdoor furniture</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/face_mask.jpg" />
+                </div>
+                <p>Face masks</p>
+              </a>
+            </div>
+            <div class="prod-item">
+              <a>
+                <div class="prod-item-img">
+                  <img src="/assets/sunglasses_1.jpg" />
+                </div>
+                <p>Sunglasses</p>
+              </a>
+            </div>
           </div>
         </div>
-        <div>
+        <div class="prod-spacer-cta">
           <p>And for all you epic bargain hunters out there…</p>
           <button href="#">Shop all deals</button>
         </div>
