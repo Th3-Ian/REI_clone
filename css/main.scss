@@ -166,3 +166,66 @@
     }
   }
 }
+
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: relative;
+  margin: 20px 0;
+}
+
+.story {
+  position: relative;
+  height: 420px;
+  max-width: 368px;
+  color: #fff;
+  background-position: center;
+  box-shadow: 0 0.2rem 0.2rem 0 rgba(12, 11, 8, 0.2);
+  transition: box-shadow 0.2s cubic-bezier(0.15, 0, 0.15, 0);
+
+  &::before {
+    background-color: transparent;
+    transition: background-color 0.2s linear;
+  }
+
+  &::after {
+    background: radial-gradient(
+      620px 220px ellipse at bottom left,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4) 55%,
+      transparent
+    );
+  }
+
+  &:hover {
+    box-shadow: 0 0.8rem 0.8rem 0 rgba(12, 11, 8, 0.2);
+    transform: translate3d(0, -0.2rem, 0);
+    transition: 0.2s;
+  }
+}
+
+.lbr-day-bg {
+  background-image: url(/assets/story_labor.webp);
+}
+
+.co-op-action-bg {
+  background-image: url(/assets/coop_story.png);
+}
+
+.hipcamp-bg {
+  background-image: url(/assets/hipcamp_story.png);
+}
+
+.story-header {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+
+  h3 {
+    line-height: 1.4;
+  }
+
+  button {
+    margin: 15px 0;
+  }
+}

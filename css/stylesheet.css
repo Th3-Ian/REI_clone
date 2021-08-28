@@ -31,11 +31,12 @@ h2 {
 }
 
 h3 {
-  font: 26px 500 #f9f8f6;
-  font-style: normal;
+  font-size: 16px;
   font-weight: 600;
+  color: #f9f8f6;
+  font-style: normal;
   letter-spacing: -0.08px;
-  line-height: 2.2rem;
+  line-height: 1.6rem;
   max-width: 229px;
 }
 
