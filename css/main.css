@@ -223,10 +223,6 @@
   transition: background-color 0.2s linear;
 }
 
-.story::after {
-  background: radial-gradient(620px 220px ellipse at bottom left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 55%, transparent);
-}
-
 .story:hover {
   -webkit-box-shadow: 0 0.8rem 0.8rem 0 rgba(12, 11, 8, 0.2);
           box-shadow: 0 0.8rem 0.8rem 0 rgba(12, 11, 8, 0.2);
@@ -260,5 +256,44 @@
 
 .story-header button {
   margin: 15px 0;
+}
+
+.link-block-col h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.email-sign-up {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.email-sign-up h3 {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.email-sign-up p {
+  margin-bottom: 10px;
+}
+
+.email-input {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.email-input input {
+  height: 40px;
+  padding: 8px;
+  width: 440px;
+  min-width: 300px;
+  margin-right: 20px;
+}
+
+.email-input p {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=main.css.map */

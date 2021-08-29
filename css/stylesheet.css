@@ -33,7 +33,7 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: 600;
-  color: #f9f8f6;
+  color: #222;
   font-style: normal;
   letter-spacing: -0.08px;
   line-height: 1.6rem;
@@ -86,8 +86,8 @@ button {
 }
 
 .under-link {
-  color: #f9f8f6;
-  border-bottom: 1px solid #f9f8f6;
+  color: #222;
+  border-bottom: 1px solid #222;
   overflow: hidden;
   position: relative;
 }
@@ -259,20 +259,25 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3.2rem;
+  padding: 32px;
+  width: 100%;
   background-color: #f4f2ed;
 }
 
 .link-block-col {
   padding-right: 0.8rem;
-  width: 50%;
+  width: 100%;
   color: rgba(12, 11, 8, 0.75);
   font-family: Graphik, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.16px;
-  font-size: 1.6rem;
+  font-size: 14px;
   line-height: 2.2rem;
+}
+
+.link-block-col ul {
+  list-style: none;
 }
 
 .link-block {
@@ -281,9 +286,8 @@ footer {
   display: flex;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
-  padding: 0 3.2rem;
+  grid-column: 1 / -1;
   margin: 6.4rem auto 0 auto;
-  max-width: 1232px;
   line-height: 2.2rem;
   width: 100%;
 }

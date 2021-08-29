@@ -46,7 +46,7 @@ h2 {
 h3 {
   font-size: 16px;
   font-weight: 600;
-  color: $secondary-color1;
+  color: $pri-font-color;
   font-style: normal;
   letter-spacing: -0.08px;
   line-height: 1.6rem;
@@ -95,8 +95,8 @@ button {
 }
 
 .under-link {
-  color: $secondary-color1;
-  border-bottom: 1px solid $secondary-color1;
+  color: $pri-font-color;
+  border-bottom: 1px solid $pri-font-color;
   overflow: hidden;
   position: relative;
 
@@ -243,28 +243,32 @@ footer {
 
 .link-block-links {
   display: flex;
-  padding: 3.2rem;
+  padding: 32px;
+  width: 100%;
   background-color: #f4f2ed;
 }
 
 .link-block-col {
   padding-right: 0.8rem;
-  width: 50%;
+  width: 100%;
   color: rgba(12, 11, 8, 0.75);
   font-family: Graphik, Helvetica Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
   letter-spacing: -0.16px;
-  font-size: 1.6rem;
+  font-size: 14px;
   line-height: 2.2rem;
+
+  ul {
+    list-style: none;
+  }
 }
 
 .link-block {
   display: flex;
   flex-wrap: nowrap;
-  padding: 0 3.2rem;
+  grid-column: 1 / -1;
   margin: 6.4rem auto 0 auto;
-  max-width: 1232px;
   line-height: 2.2rem;
   width: 100%;
 }

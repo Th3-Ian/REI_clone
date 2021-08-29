@@ -188,15 +188,6 @@
     transition: background-color 0.2s linear;
   }
 
-  &::after {
-    background: radial-gradient(
-      620px 220px ellipse at bottom left,
-      rgba(0, 0, 0, 0.4),
-      rgba(0, 0, 0, 0.4) 55%,
-      transparent
-    );
-  }
-
   &:hover {
     box-shadow: 0 0.8rem 0.8rem 0 rgba(12, 11, 8, 0.2);
     transform: translate3d(0, -0.2rem, 0);
@@ -227,5 +218,44 @@
 
   button {
     margin: 15px 0;
+  }
+}
+
+.link-block-col h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.email-sign-up {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h3 {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  p {
+    margin-bottom: 10px;
+  }
+}
+
+.email-input {
+  display: inline-block;
+  margin: 0 auto;
+
+  input {
+    height: 40px;
+    padding: 8px;
+    width: 440px;
+    min-width: 300px;
+    margin-right: 20px;
+  }
+
+  p {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 0;
   }
 }
